@@ -1,0 +1,101 @@
+altair
+asgiref
+astor
+attrs
+backcall
+base58
+bleach
+blinker
+cachetools
+certifi
+chardet
+click
+cmake
+colorama
+cycler
+decorator
+defusedxml
+Django==3.2.25  # Keep Django version if your project expects it
+djangorestframework # Remove version if you had one, let it get latest compatible
+django-cors-headers # Remove version if you had one, let it get latest compatible
+#dlib==19.24.2 ; sys_platform == 'win32'
+docutils
+entrypoints
+enum-compat
+face-recognition==1.3.0 # Keep this if hard requirement
+face-recognition-models==0.3.0 # Keep this if hard requirement
+future
+google
+google-api-core
+google-api-python-client
+google-auth
+google-auth-httplib2
+googleapis-common-protos
+httplib2
+idna
+ipykernel
+ipython
+ipython-genutils
+ipywidgets
+jedi
+Jinja2
+jmespath
+json5
+jsonschema
+jupyter-client
+jupyter-core
+jupyterlab
+jupyterlab-server
+kiwisolver
+MarkupSafe
+matplotlib # Remove version if you had one, let it get latest compatible
+mistune
+nbconvert
+nbformat
+notebook
+numpy # Remove version if you had one, let it get latest compatible
+opencv-python # Remove version if you had one, let it get latest compatible
+packaging
+pandas # Remove version if you had one, let it get latest compatible
+pandocfilters
+parso
+pathtools
+pickleshare
+Pillow # Remove version, let it get latest compatible
+prometheus-client
+prompt-toolkit
+protobuf
+pyasn1
+pyasn1-modules
+pycodestyle
+pydeck
+Pygments
+pyparsing
+pyrsistent
+python-dateutil
+pywinpty
+PyYAML
+pyzmq
+requests # Remove version if you had one, let it get latest compatible
+rsa
+s3transfer
+Send2Trash
+six
+soupsieve
+sqlparse
+terminado
+testpath
+toml
+toolz
+torch             # IMPORTANT: No version specified
+torchvision       # IMPORTANT: No version specified
+tornado
+traitlets
+tzlocal
+uritemplate
+urllib3
+validators
+watchdog
+wcwidth
+webencodings
+widgetsnbextension
