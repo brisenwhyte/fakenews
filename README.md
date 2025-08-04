@@ -1,40 +1,64 @@
-There are 3 setups needed before running the application
+This document outlines the necessary steps to set up and run the application. The application consists of three main components: a DeepFake Backend, an Article Detection Backend, and a Front end.
 
 1. DeepFake Backend
-2. Article Detection Bacxkend 
-3. Front end 
+This backend is responsible for DeepFake detection.
 
-1. DeepFake Backend 
- navigate to Deepfake\Django Application
-and run 
-1. python -m venv venv
-2. venv\Scripts\activate
-3.pip install -r require.txt
-4. pip install dlib
- 
-if you are using a conda environment there might be a conflict in versions
-you can run 
+Standard Python Environment
+Navigate to the Directory:
+cd Deepfake\Django Application
 
-1. conda deactivate
-2.conda create --name deepfake_env python=3.9
-3.conda activate deepfake_env
-4. pip install -r require.txt
-5. conda install -c conda-forge dlib
+Create a Virtual Environment:
+python -m venv venv
 
+Activate the Virtual Environment:
+venv\Scripts\activate
 
+Install Dependencies:
+pip install -r require.txt
 
-2. Article Detection Backend 
-set the gemini api key 
-Navigate to 
-1. fake article 2
-in command prompt run : SET GOOGLE_API_KEY="your api key"
-go to google AI Studio and generate an api key  
-2. run: python app.py
+Install Dlib:
+pip install dlib
 
+Conda Environment (Alternative)
+If you encounter version conflicts, a Conda environment is recommended.
 
-3.Front end 
+Deactivate Existing Conda Environment:
+conda deactivate
 
-Navigate to:
-UI\fake-news-detection-system
+Create a New Conda Environment:
+conda create --name deepfake_env python=3.9
 
-run: npm start 
+Activate the New Environment:
+conda activate deepfake_env
+
+Install Dependencies:
+pip install -r require.txt
+
+Install Dlib (using Conda):
+conda install -c conda-forge dlib
+
+2. Article Detection Backend
+This backend handles the detection of fake articles.
+
+Setup and Running
+Set the Gemini API Key:
+
+Navigate to the fake article 2 directory.
+
+Obtain an API key from Google AI Studio.
+
+Run the following command in the command prompt, replacing "your api key" with your actual key:
+SET GOOGLE_API_KEY="your api key"
+
+Run the Application:
+python app.py
+
+3. Front End
+This is the user interface for the application.
+
+Setup and Running
+Navigate to the Directory:
+cd UI\fake-news-detection-system
+
+Start the Application:
+npm start
