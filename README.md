@@ -56,6 +56,13 @@ python app.py
 3. Front End
 This is the user interface for the application.
 
+4. Download the model files
+navigate to Deepfake\Model Creation 
+create a folder models
+go to this link https://drive.google.com/drive/folders/1V_0ZWi4r4oATYh6GF2CZbw3MjCBQyYGG?usp=sharing
+   wnload the models and paste them in  that folder and youre good to go 
+
+
 Setup and Running
 Navigate to the Directory:
 cd UI\fake-news-detection-system
